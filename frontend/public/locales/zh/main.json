@@ -8,13 +8,21 @@
     },
     "installation-guide": {
         "widget": {
+            "get-started": "开始使用 {{appName}}",
+            "get-started-subtitle": "按照以下步骤安装并配置你的 VPN 连接",
+            "progress": "进度",
+            "step-counter": "第 {{current}} 步 / 共 {{total}} 步",
             "add-subscription": "添加订阅",
             "add-subscription-button": "添加订阅",
             "connect-and-use": "连接并使用",
             "installation": "安装",
             "select-device": "选择设备",
             "pc": "PC",
-            "install-app": "安装应用程序"
+            "install-app": "安装应用程序",
+            "other-apps": "其他应用",
+            "step1-install": "1. 安装应用",
+            "step2-add-config": "2. 添加配置到应用",
+            "step3-connect-and-use": "3. 连接并使用"
         }
     },
     "subscription-link": {

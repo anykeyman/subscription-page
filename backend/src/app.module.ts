@@ -13,7 +13,9 @@ import { SubscriptionPageBackendModule } from '@modules/subscription-page-backen
         ConfigModule.forRoot({
             isGlobal: true,
             cache: true,
-            envFilePath: '.env',
+            // Support both docker/prod (.env next to backend runtime) and local dev from /backend
+            // with a root-level .env (../.env).
+            envFilePath: ['.env', '../.env'],
             validate: (config) => validateEnvConfig<Env>(configSchema, config),
         }),
 

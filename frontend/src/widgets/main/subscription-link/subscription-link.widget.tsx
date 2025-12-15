@@ -1,11 +1,5 @@
-import {
-    IconBrandDiscord,
-    IconBrandTelegram,
-    IconBrandVk,
-    IconCopy,
-    IconLink,
-    IconMessageChatbot
-} from '@tabler/icons-react'
+import { FaDiscord, FaTelegramPlane, FaVk } from 'react-icons/fa'
+import { PiCopy, PiLinkSimpleBold, PiQuestionBold } from 'react-icons/pi'
 import { ActionIcon, Button, Group, Image, Stack, Text } from '@mantine/core'
 import { notifications } from '@mantine/notifications'
 import { useTranslation } from 'react-i18next'
@@ -32,16 +26,16 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
         notifications.show({
             title: t('subscription-link.widget.link-copied'),
             message: t('subscription-link.widget.link-copied-to-clipboard'),
-            color: 'cyan'
+            color: 'green'
         })
         clipboard.copy(subscriptionUrl)
     }
 
     const renderSupportLink = (supportUrl: string) => {
         const iconConfig = {
-            't.me': { icon: IconBrandTelegram, color: '#0088cc' },
-            'discord.com': { icon: IconBrandDiscord, color: '#5865F2' },
-            'vk.com': { icon: IconBrandVk, color: '#0077FF' }
+            't.me': { icon: FaTelegramPlane, color: '#22c55e' },
+            'discord.com': { icon: FaDiscord, color: '#f59e0b' },
+            'vk.com': { icon: FaVk, color: '#84cc16' }
         }
 
         const matchedPlatform = Object.entries(iconConfig).find(([domain]) =>
@@ -50,7 +44,7 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
 
         const { icon: Icon, color } = matchedPlatform
             ? matchedPlatform[1]
-            : { icon: IconMessageChatbot, color: 'cyan' }
+            : { icon: PiQuestionBold, color: '#94a3b8' }
 
         return (
             <ActionIcon
@@ -75,8 +69,8 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
 
     const handleGetLink = () => {
         const subscriptionQrCode = renderSVG(subscriptionUrl, {
-            whiteColor: '#161B22',
-            blackColor: '#22d3ee'
+            whiteColor: '#0b1220',
+            blackColor: '#22c55e'
         })
 
         modals.open({
@@ -114,7 +108,7 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
                         onClick={handleCopy}
                         variant="light"
                         radius="md"
-                        leftSection={<IconCopy />}
+                        leftSection={<PiCopy />}
                     >
                         {t('subscription-link.widget.copy-link')}
                     </Button>
@@ -135,7 +129,7 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
                     transition: 'all 0.2s ease'
                 }}
             >
-                <IconLink />
+                <PiLinkSimpleBold />
             </ActionIcon>
 
             {supportUrl && renderSupportLink(supportUrl)}

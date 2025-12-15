@@ -8,13 +8,21 @@
     },
     "installation-guide": {
         "widget": {
+            "get-started": "شروع با {{appName}}",
+            "get-started-subtitle": "این مراحل ساده را برای نصب و پیکربندی اتصال VPN دنبال کنید",
+            "progress": "پیشرفت",
+            "step-counter": "مرحله {{current}} از {{total}}",
             "add-subscription": "افزودن اشتراک",
             "add-subscription-button": "افزودن اشتراک",
             "connect-and-use": "اتصال و استفاده",
             "installation": "نصب",
             "select-device": "انتخاب دستگاه",
             "pc": "رایانه",
-            "install-app": "نصب برنامه"
+            "install-app": "نصب برنامه",
+            "other-apps": "برنامه‌های دیگر",
+            "step1-install": "۱. نصب برنامه",
+            "step2-add-config": "۲. افزودن پیکربندی به برنامه",
+            "step3-connect-and-use": "۳. اتصال و استفاده"
         }
     },
     "subscription-link": {

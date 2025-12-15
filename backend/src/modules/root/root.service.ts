@@ -2,7 +2,7 @@ import { RawAxiosResponseHeaders } from 'axios';
 import { AxiosResponseHeaders } from 'axios';
 import { Request, Response } from 'express';
 import { createHash } from 'node:crypto';
-import { nanoid } from 'nanoid';
+import { randomBytes } from 'node:crypto';
 
 import { ConfigService } from '@nestjs/config';
 import { Injectable } from '@nestjs/common';
@@ -125,7 +125,7 @@ export class RootService {
     private async generateJwtForCookie(): Promise<string> {
         return this.jwtService.sign(
             {
-                sessionId: nanoid(32),
+                sessionId: randomBytes(16).toString('hex'),
             },
             {
                 expiresIn: '1h',
@@ -192,9 +192,14 @@ export class RootService {
                 subscriptionData.response.ssConfLinks = {};
             }
 
+            const forwardedProto = req.headers['x-forwarded-proto'];
+            const isHttps = req.secure || forwardedProto === 'https';
+
             res.cookie('session', cookieJwt, {
                 httpOnly: true,
-                secure: true,
+                // Accept cookies on plain HTTP for local/dev setups (no reverse proxy),
+                // while still keeping them Secure when served over HTTPS (directly or via proxy).
+                secure: isHttps,
                 maxAge: 3_600_000, // 1 hour
             });
 

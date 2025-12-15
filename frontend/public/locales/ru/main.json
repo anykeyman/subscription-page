@@ -8,13 +8,21 @@
     },
     "installation-guide": {
         "widget": {
+            "get-started": "Начните с {{appName}}",
+            "get-started-subtitle": "Следуйте шагам ниже, чтобы установить приложение и добавить подписку",
+            "progress": "Прогресс",
+            "step-counter": "Шаг {{current}} из {{total}}",
             "add-subscription": "Добавление подписки",
             "add-subscription-button": "Добавить подписку",
             "connect-and-use": "Подключение и использование",
             "installation": "Установка",
             "select-device": "Выберите устройство",
             "pc": "ПК",
-            "install-app": "Установка приложения"
+            "install-app": "Установка приложения",
+            "other-apps": "Другие приложения",
+            "step1-install": "1. Установка приложения",
+            "step2-add-config": "2. Добавление конфигурации в приложение",
+            "step3-connect-and-use": "3. Подключение и использование"
         }
     },
     "subscription-link": {

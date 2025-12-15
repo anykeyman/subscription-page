@@ -28,6 +28,11 @@ export interface IAppConfig {
     additionalBeforeAddSubscriptionStep?: ITitleStep
     addSubscriptionStep: IStep
     connectAndUseStep: IStep
+    /**
+     * URL to the app icon (usually a path under /assets/..., e.g. /assets/apps-icons/happ.svg).
+     * Used in UI to visually associate the instruction steps with the selected app.
+     */
+    iconUrl?: string
     id: string
     installationStep: {
         buttons: IButton[]

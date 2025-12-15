@@ -1,5 +1,5 @@
 import { ActionIcon, Menu, Text, useDirection } from '@mantine/core'
-import { IconLanguage } from '@tabler/icons-react'
+import { PiTranslateBold } from 'react-icons/pi'
 import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react'
 
@@ -77,7 +77,7 @@ export function LanguagePicker({ enabledLocales }: { enabledLocales: TEnabledLoc
                         transition: 'all 0.2s ease'
                     }}
                 >
-                    <IconLanguage size={22} />
+                    <PiTranslateBold size={22} />
                 </ActionIcon>
             </Menu.Target>
             <Menu.Dropdown>{items}</Menu.Dropdown>

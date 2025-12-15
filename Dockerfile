@@ -15,13 +15,28 @@ RUN npm cache clean --force
 
 RUN npm prune --omit=dev
 
+FROM node:24.11-alpine AS frontend-build
+WORKDIR /opt/frontend
+
+COPY frontend/package*.json ./
+COPY frontend/tsconfig.json ./
+COPY frontend/tsconfig.node.json ./
+COPY frontend/vite.config.ts ./
+
+RUN npm ci --legacy-peer-deps
+
+COPY frontend/ ./
+
+ENV NODE_ENV=production
+RUN npm run start:build
+
 FROM node:24.11-alpine
 WORKDIR /opt/app
 
 COPY --from=backend-build /opt/app/dist ./dist
 COPY --from=backend-build /opt/app/node_modules ./node_modules
 
-COPY frontend/dist/ ./frontend/
+COPY --from=frontend-build /opt/frontend/dist ./frontend/
 
 COPY backend/package*.json ./
 

@@ -28,6 +28,18 @@ export const SubscriptionInfoWidget = ({ isMobile }: { isMobile: boolean }) => {
 
     const { user } = subscription
 
+    /**
+     * If the panel doesn't provide traffic usage (or it is effectively empty),
+     * we intentionally hide the whole "user info" block to keep the page focused
+     * on app installation and adding the subscription.
+     */
+    const trafficUsedStr = String(user.trafficUsed ?? '').trim()
+    const trafficUsedNumberMatch = trafficUsedStr.match(/^([0-9]+(?:\.[0-9]+)?)\s*/)
+    const trafficUsedNumber = trafficUsedNumberMatch ? Number(trafficUsedNumberMatch[1]) : NaN
+
+    // Hide when trafficUsed is missing or equals 0 (e.g. "0", "0B", "0 GiB")
+    if (!trafficUsedStr || (!Number.isNaN(trafficUsedNumber) && trafficUsedNumber <= 0)) return null
+
     const getStatusAndIcon = (): {
         color: string
         icon: React.ReactNode

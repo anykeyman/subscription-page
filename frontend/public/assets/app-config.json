@@ -67,7 +67,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "stash",
@@ -112,7 +113,8 @@
                         "zh": "在主界面点击「Start」按钮。在提示时允许添加 VPN 配置。配置启用后，进入「Policy（策略）」部分并选择要连接的国家。",
                         "fr": "Sur l’écran principal, appuie sur le bouton « Start ». Autorise ensuite l’ajout de la configuration VPN. Une fois le profil activé, ouvre la section « Policy » et choisis le pays de connexion."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/stash.svg"
             },
             {
                 "id": "streisand",
@@ -195,7 +197,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/streisand.svg"
             },
             {
                 "id": "shadowrocket",
@@ -269,7 +272,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/shadowrocket.svg"
             },
             {
                 "id": "clash-mi",
@@ -314,7 +318,8 @@
                         "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。",
                         "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/clash-mi.svg"
             }
         ],
         "android": [
@@ -388,7 +393,8 @@
                         "zh": "在 Profiles 部分选择已添加的配置文件。在控制面板右下角点击启用按钮。启动后，你可以在 Proxy 部分更换连接的服务器。",
                         "fr": "Select the added profile in the « Profiles » section. In the Control Panel, click the « Enable » button in the bottom right corner. Once it's running, you can change the server you're connected to in the « Proxy » section."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/flclashx.svg"
             },
             {
                 "id": "clash-meta",
@@ -453,7 +459,8 @@
                         "zh": "进入“配置文件”部分并选择已创建的配置文件，然后返回主页面。现在你可以点击“已停止”按钮连接。",
                         "fr": "Va dans « Profiles » et sélectionne le profil créé, puis reviens à la page principale. Tu peux maintenant te connecter en appuyant sur « Stopped »."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/clash-meta.svg"
             },
             {
                 "id": "happ",
@@ -508,7 +515,8 @@
                         "zh": "打开应用并连接到服务器",
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "v2rayNG",
@@ -580,7 +588,8 @@
                         "zh": "选择所需服务器并点击右下角的启用按钮。",
                         "fr": "Sélectionne le serveur souhaité puis appuie sur « Enable » en bas à droite."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/v2rayNG.svg"
             },
             {
                 "id": "exclave",
@@ -662,7 +671,8 @@
                         "zh": "在配置部分选择所需服务器并点击右下角的启用按钮。",
                         "fr": "Dans la section « Configuration », choisis le serveur souhaité puis appuie sur « Enable » en bas à droite."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/exclave.svg"
             }
         ],
         "linux": [
@@ -756,7 +766,8 @@
                         "zh": "在“配置文件”部分选择已添加的配置文件。在控制面板右下角点击启用按钮，然后打开 TUN 项旁边的开关。启动后，在代理部分可以更改所连接的服务器。",
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/flclashx.svg"
             },
             {
                 "id": "koala-clash",
@@ -865,7 +876,8 @@
                         "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。",
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/koala-clash.svg"
             },
             {
                 "id": "prizrak-box",
@@ -974,7 +986,8 @@
                         "zh": "在“配置文件”部分选择已添加的订阅。可在“代理 (🚀)”部分选择服务器国家。将 TUN 开关切换到开启。",
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
             },
             {
                 "id": "clash-verge",
@@ -1083,7 +1096,8 @@
                         "zh": "您可以在代理部分选择服务器，在设置中启用 VPN。将 TUN 模式开关设置为开启。",
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/clash-verge.svg"
             }
         ],
         "macos": [
@@ -1140,7 +1154,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "koala-clash",
@@ -1229,7 +1244,8 @@
                         "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。",
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/koala-clash.svg"
             },
             {
                 "id": "flclashx",
@@ -1301,7 +1317,8 @@
                         "zh": "在“配置文件”部分选择已添加的配置文件。在控制面板右下角点击启用按钮，然后打开 TUN 项旁边的开关。启动后，在代理部分可以更改所连接的服务器。",
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/flclashx.svg"
             },
             {
                 "id": "prizrak-box",
@@ -1401,7 +1418,8 @@
                         "zh": "在“配置文件”部分选择已添加的订阅。可在“代理 (🚀)”部分选择服务器国家。将 TUN 开关切换到开启。",
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
             },
             {
                 "id": "clash-verge",
@@ -1490,7 +1508,8 @@
                         "zh": "您可以在代理部分选择服务器，在设置中启用 VPN。将 TUN 模式开关设置为开启。",
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/clash-verge.svg"
             }
         ],
         "windows": [
@@ -1584,7 +1603,8 @@
                         "zh": "在“配置文件”部分选择已添加的配置文件。在控制面板右下角点击启用按钮，然后打开 TUN 项旁边的开关。启动后，在代理部分可以更改所连接的服务器。",
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/flclashx.svg"
             },
             {
                 "id": "koala-clash",
@@ -1673,7 +1693,8 @@
                         "zh": "您可以在主页面底部选择服务器，并通过点击主页面中央的大按钮来启用 VPN。",
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/koala-clash.svg"
             },
             {
                 "id": "prizrak-box",
@@ -1782,7 +1803,8 @@
                         "zh": "在“配置文件”部分选择已添加的订阅。可在“代理 (🚀)”部分选择服务器国家。将 TUN 开关切换到开启。",
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
             },
             {
                 "id": "happ",
@@ -1827,7 +1849,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "clash-verge",
@@ -1916,7 +1939,8 @@
                         "zh": "您可以在代理部分选择服务器，在设置中启用 VPN。将 TUN 模式开关设置为开启。",
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/clash-verge.svg"
             }
         ],
         "androidTV": [
@@ -2011,7 +2035,8 @@
                         "zh": "打开应用并连接到服务器",
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "flclashx",
@@ -2120,7 +2145,8 @@
                         "zh": "在“配置文件”部分选择已添加的配置文件。在控制面板右下角点击启用按钮。运行后，你可以在“代理”部分更改所连接的服务器。",
                         "fr": "Select the added profile in the « Profiles » section. In the Control Panel, click the « Enable » button in the bottom right corner. Once it's running, you can change the server you're connected to in the « Proxy » section."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/flclashx.svg"
             },
             {
                 "id": "hiddify",
@@ -2213,7 +2239,8 @@
                         "zh": "打开应用并连接到服务器",
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/hiddify.svg"
             }
         ],
         "appleTV": [
@@ -2298,7 +2325,8 @@
                         "zh": "打开应用并连接到服务器",
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/happ.svg"
             },
             {
                 "id": "shadowrocket",
@@ -2372,7 +2400,8 @@
                         "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。",
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/shadowrocket.svg"
             },
             {
                 "id": "stash",
@@ -2417,7 +2446,8 @@
                         "zh": "在主界面点击「Start」按钮。在提示时允许添加 VPN 配置。配置启用后，进入「Policy（策略）」部分并选择要连接的国家。",
                         "fr": "Sur l’écran principal, appuie sur le bouton « Start ». Autorise ensuite l’ajout de la configuration VPN. Une fois le profil activé, ouvre la section « Policy » et choisis le pays de connexion."
                     }
-                }
+                },
+                "iconUrl": "/assets/apps-icons/stash.svg"
             }
         ]
     }

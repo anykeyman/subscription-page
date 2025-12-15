@@ -39,6 +39,31 @@ export function RootLayout() {
         }
     }, [])
 
+    // Dev fallback (Vite): allow loading subscription info without SSR-injected panelData.
+    useEffect(() => {
+        const rootDiv = document.getElementById('root')
+        const hasPanel = Boolean(rootDiv?.dataset?.panel)
+        if (hasPanel) return
+        if (process.env.NODE_ENV !== 'development') return
+
+        const url = new URL(window.location.href)
+        const shortUuid = url.searchParams.get('shortUuid')
+        if (!shortUuid) return
+
+        const load = async () => {
+            try {
+                const resp = await fetch(`/api/subscription-info/${encodeURIComponent(shortUuid)}`)
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
+                const data = (await resp.json()) as GetSubscriptionInfoByShortUuidCommand.Response
+                actions.setSubscriptionInfo({ subscription: data.response })
+            } catch (e) {
+                consola.error('Dev subscription-info fetch failed:', e)
+            }
+        }
+
+        load()
+    }, [actions])
+
     useEffect(() => {
         if (!i18nInitialized) {
             i18n.on('initialized', () => {

@@ -3,11 +3,11 @@ import cookieParser from 'cookie-parser';
 import { createLogger } from 'winston';
 import compression from 'compression';
 import * as winston from 'winston';
-import { nanoid } from 'nanoid';
 import { json } from 'express';
 import path from 'node:path';
 import helmet from 'helmet';
 import morgan from 'morgan';
+import { randomBytes } from 'node:crypto';
 
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { ConfigService } from '@nestjs/config';
@@ -33,7 +33,8 @@ import { AppModule } from './app.module';
 //     silly: 6,
 // };
 
-process.env.INTERNAL_JWT_SECRET = nanoid(64);
+// Avoid ESM-only dependency issues in CommonJS builds by using Node's crypto.
+process.env.INTERNAL_JWT_SECRET = randomBytes(48).toString('base64url'); // ~64 chars
 
 const instanceId = process.env.INSTANCE_ID || '0';
 

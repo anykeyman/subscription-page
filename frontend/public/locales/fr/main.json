@@ -8,12 +8,20 @@
     },
     "installation-guide": {
         "widget": {
+            "get-started": "Bien démarrer avec {{appName}}",
+            "get-started-subtitle": "Suis ces étapes simples pour installer et configurer ta connexion VPN",
+            "progress": "Progression",
+            "step-counter": "Étape {{current}} sur {{total}}",
             "add-subscription": "Ajouter un abonnement",
             "add-subscription-button": "Ajouter un abonnement",
             "connect-and-use": "Se connecter et utiliser",
             "installation": "Installation",
             "select-device": "Choisir un appareil",
-            "install-app": "Installer l'application"
+            "install-app": "Installer l'application",
+            "other-apps": "Autres applications",
+            "step1-install": "1. Installer l’application",
+            "step2-add-config": "2. Ajouter la configuration à l’application",
+            "step3-connect-and-use": "3. Se connecter et utiliser"
         }
     },
     "subscription-link": {

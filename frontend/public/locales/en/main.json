@@ -8,12 +8,20 @@
     },
     "installation-guide": {
         "widget": {
+            "get-started": "Get Started with {{appName}}",
+            "get-started-subtitle": "Follow these simple steps to install and configure your VPN connection",
+            "progress": "Progress",
+            "step-counter": "Step {{current}} of {{total}}",
             "add-subscription": "Add subscription",
             "add-subscription-button": "Add subscription",
             "connect-and-use": "Connect and use",
             "installation": "Installation",
             "select-device": "Select device",
-            "install-app": "Install app"
+            "install-app": "Install app",
+            "other-apps": "Other apps",
+            "step1-install": "1. Install app",
+            "step2-add-config": "2. Add configuration to app",
+            "step3-connect-and-use": "3. Connect and use"
         }
     },
     "subscription-link": {

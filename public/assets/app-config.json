@@ -12,7 +12,9 @@
                         "buttonText": {
                             "en": "Open in App Store [EU]",
                             "fa": "باز کردن در App Store [EU]",
-                            "ru": "Открыть в App Store [EU]"
+                            "ru": "Открыть в App Store [EU]",
+                            "fr": "Ouvrir dans l’App Store [EU]",
+                            "zh": "在 App Store 打开 [EU]"
                         }
                     },
                     {
@@ -20,7 +22,9 @@
                         "buttonText": {
                             "en": "Open in App Store [RU]",
                             "fa": "باز کردن در App Store [RU]",
-                            "ru": "Открыть в App Store [RU]"
+                            "ru": "Открыть в App Store [RU]",
+                            "fr": "Ouvrir dans l’App Store [RU]",
+                            "zh": "在 App Store 打开 [RU]"
                         }
                     }
                 ],
@@ -43,7 +47,8 @@
                     "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/happ.svg"
         },
         {
             "id": "streisand",
@@ -57,7 +62,9 @@
                         "buttonText": {
                             "en": "Open in App Store",
                             "fa": "باز کردن در App Store",
-                            "ru": "Открыть в App Store"
+                            "ru": "Открыть в App Store",
+                            "fr": "Ouvrir dans l’App Store",
+                            "zh": "在 App Store 打开"
                         }
                     }
                 ],
@@ -80,7 +87,8 @@
                     "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/streisand.svg"
         },
         {
             "id": "shadowrocket",
@@ -95,7 +103,9 @@
                         "buttonText": {
                             "en": "Open in App Store",
                             "fa": "باز کردن در App Store",
-                            "ru": "Открыть в App Store"
+                            "ru": "Открыть в App Store",
+                            "fr": "Ouvrir dans l’App Store",
+                            "zh": "在 App Store 打开"
                         }
                     }
                 ],
@@ -118,7 +128,8 @@
                     "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/shadowrocket.svg"
         }
     ],
     "android": [
@@ -134,7 +145,9 @@
                         "buttonText": {
                             "en": "Open in Google Play",
                             "fa": "باز کردن در Google Play",
-                            "ru": "Открыть в Google Play"
+                            "ru": "Открыть в Google Play",
+                            "fr": "Ouvrir dans Google Play",
+                            "zh": "在 Google Play 打开"
                         }
                     },
                     {
@@ -142,7 +155,9 @@
                         "buttonText": {
                             "en": "Download APK",
                             "fa": "دانلود APK",
-                            "ru": "Скачать APK"
+                            "ru": "Скачать APK",
+                            "fr": "Télécharger APK",
+                            "zh": "下载 APK"
                         }
                     }
                 ],
@@ -165,7 +180,8 @@
                     "fa": "برنامه را باز کنید و به سرور متصل شوید",
                     "ru": "Откройте приложение и подключитесь к серверу"
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/happ.svg"
         },
         {
             "id": "clash-meta",
@@ -179,7 +195,9 @@
                         "buttonText": {
                             "en": "Download APK",
                             "fa": "دانلود APK",
-                            "ru": "Скачать APK"
+                            "ru": "Скачать APK",
+                            "fr": "Télécharger APK",
+                            "zh": "下载 APK"
                         }
                     },
                     {
@@ -187,7 +205,9 @@
                         "buttonText": {
                             "en": "Open in F-Droid",
                             "fa": "در F-Droid باز کنید",
-                            "ru": "Открыть в F-Droid"
+                            "ru": "Открыть в F-Droid",
+                            "fr": "Ouvrir dans F-Droid",
+                            "zh": "在 F-Droid 打开"
                         }
                     }
                 ],
@@ -210,7 +230,8 @@
                     "fa": "Clash Meta را باز کنید و روی اتصال ضربه بزنید",
                     "ru": "Откройте Clash Meta и нажмите Подключиться"
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/clash-meta.svg"
         }
     ],
     "pc": [
@@ -226,7 +247,9 @@
                         "buttonText": {
                             "en": "Windows",
                             "fa": "ویندوز",
-                            "ru": "Windows"
+                            "ru": "Windows",
+                            "fr": "Windows",
+                            "zh": "Windows"
                         }
                     },
                     {
@@ -234,7 +257,9 @@
                         "buttonText": {
                             "en": "macOS (Intel)",
                             "fa": "مک (اینتل)",
-                            "ru": "macOS (Intel)"
+                            "ru": "macOS (Intel)",
+                            "fr": "macOS (Intel)",
+                            "zh": "macOS（Intel）"
                         }
                     },
                     {
@@ -242,7 +267,9 @@
                         "buttonText": {
                             "en": "macOS (Apple Silicon)",
                             "fa": "مک (Apple Silicon)",
-                            "ru": "macOS (Apple Silicon)"
+                            "ru": "macOS (Apple Silicon)",
+                            "fr": "macOS (Apple Silicon)",
+                            "zh": "macOS（Apple Silicon）"
                         }
                     },
                     {
@@ -250,7 +277,9 @@
                         "buttonText": {
                             "en": "Linux",
                             "fa": "لینوکس",
-                            "ru": "Linux"
+                            "ru": "Linux",
+                            "fr": "Linux",
+                            "zh": "Linux"
                         }
                     }
                 ],
@@ -299,7 +328,8 @@
                     "fa": "می‌توانید در بخش پروکسی سرور را انتخاب کنید و در بخش تنظیمات VPN را فعال کنید. کلید TUN Mode را در حالت روشن قرار دهید.",
                     "ru": "Выбрать сервер можно в разделе Прокси, включить VPN можно в разделе Настройки. Установите переключатель TUN Mode в положение ВКЛ."
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/clash-verge.svg"
         },
         {
             "id": "hiddify",
@@ -313,7 +343,9 @@
                         "buttonText": {
                             "en": "Windows",
                             "fa": "ویندوز",
-                            "ru": "Windows"
+                            "ru": "Windows",
+                            "fr": "Windows",
+                            "zh": "Windows"
                         }
                     },
                     {
@@ -321,7 +353,9 @@
                         "buttonText": {
                             "en": "macOS",
                             "fa": "مک",
-                            "ru": "macOS"
+                            "ru": "macOS",
+                            "fr": "macOS",
+                            "zh": "macOS"
                         }
                     },
                     {
@@ -329,7 +363,9 @@
                         "buttonText": {
                             "en": "Linux",
                             "fa": "لینوکس",
-                            "ru": "Linux"
+                            "ru": "Linux",
+                            "fr": "Linux",
+                            "zh": "Linux"
                         }
                     }
                 ],
@@ -352,7 +388,8 @@
                     "fa": "در بخش اصلی، دکمه بزرگ روشن/خاموش در مرکز را برای اتصال به VPN کلیک کنید. فراموش نکنید که یک سرور را از لیست سرورها انتخاب کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
-            }
+            },
+            "iconUrl": "/assets/apps-icons/hiddify.svg"
         }
     ]
 }

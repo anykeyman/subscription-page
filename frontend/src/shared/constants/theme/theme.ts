@@ -86,8 +86,9 @@ export const theme = createTheme({
             '#471700'
         ]
     },
-    primaryShade: 8,
-    primaryColor: 'cyan',
+    // New accent: security green (less "neon cyan" vibe)
+    primaryShade: 6,
+    primaryColor: 'green',
     autoContrast: true,
     luminanceThreshold: 0.3,
     headings: {

@@ -11,6 +11,13 @@ export function proxyCheckMiddleware(req: Request, res: Response, next: NextFunc
         return next();
     }
 
+    // Escape hatch for local/self-hosted environments without a reverse proxy.
+    // Keep this disabled in production deployments behind HTTPS.
+    if (process.env.DISABLE_PROXY_CHECK === 'true') {
+        logger.warn('Proxy/HTTPS check is disabled via DISABLE_PROXY_CHECK=true');
+        return next();
+    }
+
     const isProxy = Boolean(req.headers['x-forwarded-for']);
     const isHttps = Boolean(req.headers['x-forwarded-proto'] === 'https');
 
