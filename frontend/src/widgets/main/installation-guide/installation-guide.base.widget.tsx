@@ -39,13 +39,13 @@ const StepCard = ({
     return (
         <Card p={{ base: 'sm', xs: 'md', sm: 'lg' }} radius="lg" className="step-card">
             <Stack gap={isMobile ? 'xs' : 'sm'} style={{ minWidth: 0 }}>
-                <Title order={6} c="white" fw={600} style={{ wordBreak: 'break-word' }}>
+                <Title order={6} c="var(--sp-text)" fw={600} style={{ wordBreak: 'break-word' }}>
                     {title}
                 </Title>
                 {description && (
                     <Text
                         size={isMobile ? 'xs' : 'sm'}
-                        c="rgba(255,255,255,0.78)"
+                        c="var(--sp-text-muted)"
                         style={{ whiteSpace: 'pre-line', lineHeight: 1.7 }}
                     >
                         {description}
@@ -79,8 +79,8 @@ export const BaseInstallationGuideWidget = (props: IBaseGuideProps) => {
                     radius={5}
                     styles={{
                         root: {
-                            background: 'rgba(255, 255, 255, 0.06)',
-                            border: '1px solid rgba(255, 255, 255, 0.12)',
+                            background: 'color-mix(in srgb, var(--sp-surface) 70%, transparent)',
+                            border: '1px solid var(--sp-border)',
                             flexShrink: 0
                         },
                         image: { objectFit: 'contain' }

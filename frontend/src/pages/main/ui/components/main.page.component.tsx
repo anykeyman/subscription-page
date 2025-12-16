@@ -103,9 +103,9 @@ export const MainPageComponent = ({
         input: {
             height: headerControlHeight,
             minHeight: headerControlHeight,
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid rgba(255, 255, 255, 0.1)',
-            color: 'white'
+            background: 'var(--sp-surface)',
+            border: '1px solid var(--sp-border)',
+            color: 'var(--sp-text)'
         },
         section: {
             height: headerControlHeight
@@ -120,7 +120,7 @@ export const MainPageComponent = ({
                         {/* Row 1: service name, link icon, telegram link, language */}
                         <Group justify="space-between" wrap="wrap" gap="xs">
                             <Title order={4} fw={800} style={{ userSelect: 'none' }}>
-                                <Text component="span" inherit c="white">
+                                <Text component="span" inherit c="var(--sp-text)">
                                     {brandName}
                                 </Text>
                             </Title>
@@ -145,7 +145,9 @@ export const MainPageComponent = ({
                                     leftSection={
                                         availablePlatforms.find((p) => p.value === selectedPlatform)?.icon
                                     }
-                                    onChange={(value) => setSelectedPlatform((value || 'windows') as TPlatform)}
+                                    onChange={(value) =>
+                                        setSelectedPlatform((value || 'windows') as TPlatform)
+                                    }
                                     radius="md"
                                     size="md"
                                     style={{ width: isMobile ? '100%' : 170 }}
@@ -164,13 +166,16 @@ export const MainPageComponent = ({
                                     }))}
                                     leftSection={
                                         <Avatar
-                                            src={availableApps.find((a) => a.value === selectedAppId)?.iconUrl}
+                                            src={
+                                                availableApps.find((a) => a.value === selectedAppId)?.iconUrl
+                                            }
                                             size={18}
                                             radius={5}
                                             styles={{
                                                 root: {
-                                                    background: 'rgba(255, 255, 255, 0.06)',
-                                                    border: '1px solid rgba(255, 255, 255, 0.12)'
+                                                    background:
+                                                        'color-mix(in srgb, var(--sp-surface) 70%, transparent)',
+                                                    border: '1px solid var(--sp-border)'
                                                 },
                                                 image: { objectFit: 'contain' }
                                             }}
@@ -215,3 +220,4 @@ export const MainPageComponent = ({
         </Page>
     )
 }
+

@@ -70,7 +70,7 @@ export const InfoBlockShared = (props: IInfoBlockProps) => {
                         {title}
                     </Text>
                 </Group>
-                <Text fw={600} size="sm" c="white" truncate>
+            <Text fw={600} size="sm" c="var(--sp-text)" truncate>
                     {value}
                 </Text>
             </Stack>

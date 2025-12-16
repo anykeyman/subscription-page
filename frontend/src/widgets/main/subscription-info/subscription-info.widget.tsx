@@ -97,7 +97,7 @@ export const SubscriptionInfoWidget = ({ isMobile }: { isMobile: boolean }) => {
                         <Stack gap={2} style={{ minWidth: 0, flex: 1 }}>
                             <Title
                                 order={5}
-                                c="white"
+                                c="var(--sp-text)"
                                 fw={600}
                                 style={{
                                     overflow: 'hidden',

@@ -48,7 +48,7 @@
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
             },
-            "iconUrl": "/assets/apps-icons/happ.svg"
+            "iconUrl": "/assets/apps-icons/happ.png"
         },
         {
             "id": "streisand",
@@ -88,7 +88,7 @@
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
             },
-            "iconUrl": "/assets/apps-icons/streisand.svg"
+            "iconUrl": "/assets/apps-icons/streisand.png"
         },
         {
             "id": "shadowrocket",
@@ -129,7 +129,7 @@
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
             },
-            "iconUrl": "/assets/apps-icons/shadowrocket.svg"
+            "iconUrl": "/assets/apps-icons/shadowrocket.png"
         }
     ],
     "android": [
@@ -181,7 +181,7 @@
                     "ru": "Откройте приложение и подключитесь к серверу"
                 }
             },
-            "iconUrl": "/assets/apps-icons/happ.svg"
+            "iconUrl": "/assets/apps-icons/happ.png"
         },
         {
             "id": "clash-meta",
@@ -231,7 +231,7 @@
                     "ru": "Откройте Clash Meta и нажмите Подключиться"
                 }
             },
-            "iconUrl": "/assets/apps-icons/clash-meta.svg"
+            "iconUrl": "/assets/apps-icons/clash-meta.png"
         }
     ],
     "pc": [
@@ -329,7 +329,7 @@
                     "ru": "Выбрать сервер можно в разделе Прокси, включить VPN можно в разделе Настройки. Установите переключатель TUN Mode в положение ВКЛ."
                 }
             },
-            "iconUrl": "/assets/apps-icons/clash-verge.svg"
+            "iconUrl": "/assets/apps-icons/clash-verge.png"
         },
         {
             "id": "hiddify",
@@ -389,7 +389,7 @@
                     "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов."
                 }
             },
-            "iconUrl": "/assets/apps-icons/hiddify.svg"
+            "iconUrl": "/assets/apps-icons/hiddify.png"
         }
     ]
 }

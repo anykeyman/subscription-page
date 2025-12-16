@@ -72,8 +72,8 @@ export function LanguagePicker({ enabledLocales }: { enabledLocales: TEnabledLoc
                     radius="md"
                     variant="default"
                     style={{
-                        background: 'rgba(255, 255, 255, 0.02)',
-                        border: '1px solid rgba(255, 255, 255, 0.1)',
+                        background: 'var(--sp-surface)',
+                        border: '1px solid var(--sp-border)',
                         transition: 'all 0.2s ease'
                     }}
                 >

@@ -1,6 +1,6 @@
 import { FaDiscord, FaTelegramPlane, FaVk } from 'react-icons/fa'
 import { PiCopy, PiLinkSimpleBold, PiQuestionBold } from 'react-icons/pi'
-import { ActionIcon, Button, Group, Image, Stack, Text } from '@mantine/core'
+import { ActionIcon, Button, Group, Image, Stack, Text, useMantineColorScheme } from '@mantine/core'
 import { notifications } from '@mantine/notifications'
 import { useTranslation } from 'react-i18next'
 import { useClipboard } from '@mantine/hooks'
@@ -14,6 +14,7 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
     const { t } = useTranslation()
     const { subscription } = useSubscriptionInfoStoreInfo()
     const clipboard = useClipboard({ timeout: 10000 })
+    const { colorScheme } = useMantineColorScheme()
 
     if (!subscription) return null
 
@@ -57,8 +58,8 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
                 target="_blank"
                 variant="default"
                 style={{
-                    background: 'rgba(255, 255, 255, 0.02)',
-                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    background: 'var(--sp-surface)',
+                    border: '1px solid var(--sp-border)',
                     transition: 'all 0.2s ease'
                 }}
             >
@@ -68,9 +69,10 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
     }
 
     const handleGetLink = () => {
+        const isDark = colorScheme === 'dark'
         const subscriptionQrCode = renderSVG(subscriptionUrl, {
-            whiteColor: '#0b1220',
-            blackColor: '#22c55e'
+            whiteColor: isDark ? '#0b1220' : '#ffffff',
+            blackColor: isDark ? '#22c55e' : '#166534'
         })
 
         modals.open({
@@ -78,16 +80,16 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
             title: t('subscription-link.widget.get-link'),
             styles: {
                 content: {
-                    background: 'rgba(22, 27, 35, 0.95)',
-                    backdropFilter: 'blur(20px)',
-                    border: '1px solid rgba(255, 255, 255, 0.1)'
+                    background: 'var(--sp-surface-strong)',
+                    backdropFilter: 'blur(16px)',
+                    border: '1px solid var(--sp-border)'
                 },
                 header: {
                     background: 'transparent'
                 },
                 title: {
                     fontWeight: 600,
-                    color: 'white'
+                    color: 'var(--sp-text)'
                 }
             },
             children: (
@@ -96,7 +98,7 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
                         src={`data:image/svg+xml;utf8,${encodeURIComponent(subscriptionQrCode)}`}
                         style={{ borderRadius: 'var(--mantine-radius-md)' }}
                     />
-                    <Text fw={600} size="lg" ta="center" c="white">
+                    <Text fw={600} size="lg" ta="center" c="var(--sp-text)">
                         {t('subscription-link.widget.scan-qr-code')}
                     </Text>
                     <Text c="dimmed" size="sm" ta="center">
@@ -124,8 +126,8 @@ export const SubscriptionLinkWidget = ({ supportUrl }: { supportUrl?: string }) 
                 radius="md"
                 variant="default"
                 style={{
-                    background: 'rgba(255, 255, 255, 0.02)',
-                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    background: 'var(--sp-surface)',
+                    border: '1px solid var(--sp-border)',
                     transition: 'all 0.2s ease'
                 }}
             >

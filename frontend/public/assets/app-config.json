@@ -68,7 +68,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "stash",
@@ -114,7 +114,7 @@
                         "fr": "Sur l’écran principal, appuie sur le bouton « Start ». Autorise ensuite l’ajout de la configuration VPN. Une fois le profil activé, ouvre la section « Policy » et choisis le pays de connexion."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/stash.svg"
+                "iconUrl": "/assets/apps-icons/stash.png"
             },
             {
                 "id": "streisand",
@@ -198,7 +198,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/streisand.svg"
+                "iconUrl": "/assets/apps-icons/streisand.png"
             },
             {
                 "id": "shadowrocket",
@@ -273,7 +273,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/shadowrocket.svg"
+                "iconUrl": "/assets/apps-icons/shadowrocket.png"
             },
             {
                 "id": "clash-mi",
@@ -319,7 +319,7 @@
                         "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/clash-mi.svg"
+                "iconUrl": "/assets/apps-icons/clash-mi.png"
             }
         ],
         "android": [
@@ -394,7 +394,7 @@
                         "fr": "Select the added profile in the « Profiles » section. In the Control Panel, click the « Enable » button in the bottom right corner. Once it's running, you can change the server you're connected to in the « Proxy » section."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/flclashx.svg"
+                "iconUrl": "/assets/apps-icons/flclashx.png"
             },
             {
                 "id": "clash-meta",
@@ -460,7 +460,7 @@
                         "fr": "Va dans « Profiles » et sélectionne le profil créé, puis reviens à la page principale. Tu peux maintenant te connecter en appuyant sur « Stopped »."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/clash-meta.svg"
+                "iconUrl": "/assets/apps-icons/clash-meta.png"
             },
             {
                 "id": "happ",
@@ -516,7 +516,7 @@
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "v2rayNG",
@@ -589,7 +589,7 @@
                         "fr": "Sélectionne le serveur souhaité puis appuie sur « Enable » en bas à droite."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/v2rayNG.svg"
+                "iconUrl": "/assets/apps-icons/v2rayNG.png"
             },
             {
                 "id": "exclave",
@@ -672,7 +672,7 @@
                         "fr": "Dans la section « Configuration », choisis le serveur souhaité puis appuie sur « Enable » en bas à droite."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/exclave.svg"
+                "iconUrl": "/assets/apps-icons/exclave.png"
             }
         ],
         "linux": [
@@ -767,7 +767,7 @@
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/flclashx.svg"
+                "iconUrl": "/assets/apps-icons/flclashx.png"
             },
             {
                 "id": "koala-clash",
@@ -877,7 +877,7 @@
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/koala-clash.svg"
+                "iconUrl": "/assets/apps-icons/koala-clash.png"
             },
             {
                 "id": "prizrak-box",
@@ -987,7 +987,7 @@
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
+                "iconUrl": "/assets/apps-icons/prizrak-box.png"
             },
             {
                 "id": "clash-verge",
@@ -1097,7 +1097,7 @@
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/clash-verge.svg"
+                "iconUrl": "/assets/apps-icons/clash-verge.png"
             }
         ],
         "macos": [
@@ -1155,7 +1155,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "koala-clash",
@@ -1245,7 +1245,7 @@
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/koala-clash.svg"
+                "iconUrl": "/assets/apps-icons/koala-clash.png"
             },
             {
                 "id": "flclashx",
@@ -1318,7 +1318,7 @@
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/flclashx.svg"
+                "iconUrl": "/assets/apps-icons/flclashx.png"
             },
             {
                 "id": "prizrak-box",
@@ -1419,7 +1419,7 @@
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
+                "iconUrl": "/assets/apps-icons/prizrak-box.png"
             },
             {
                 "id": "clash-verge",
@@ -1509,7 +1509,7 @@
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/clash-verge.svg"
+                "iconUrl": "/assets/apps-icons/clash-verge.png"
             }
         ],
         "windows": [
@@ -1604,7 +1604,7 @@
                         "fr": "Select the added profile in the « Profiles » section. In the Dashboard, click the enable button in the lower right corner, and then turn on the switch next to the « TUN » item. After launching, in the « Proxy » section, you can change the choice of the server to which you will be connected."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/flclashx.svg"
+                "iconUrl": "/assets/apps-icons/flclashx.png"
             },
             {
                 "id": "koala-clash",
@@ -1694,7 +1694,7 @@
                         "fr": "You can select a server at the bottom of the main page, and enable VPN by clicking on the large button in the center of the main page."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/koala-clash.svg"
+                "iconUrl": "/assets/apps-icons/koala-clash.png"
             },
             {
                 "id": "prizrak-box",
@@ -1804,7 +1804,7 @@
                         "fr": "Select the added subscription in the « Profiles » section. You can choose the server country in the « Proxy » (🚀) section. Set the « TUN » switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/prizrak-box.svg"
+                "iconUrl": "/assets/apps-icons/prizrak-box.png"
             },
             {
                 "id": "happ",
@@ -1850,7 +1850,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "clash-verge",
@@ -1940,7 +1940,7 @@
                         "fr": "You can select a server in the « Proxy » section, and enable VPN in the Settings section. Set the « TUN » Mode switch to ON."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/clash-verge.svg"
+                "iconUrl": "/assets/apps-icons/clash-verge.png"
             }
         ],
         "androidTV": [
@@ -2036,7 +2036,7 @@
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "flclashx",
@@ -2146,7 +2146,7 @@
                         "fr": "Select the added profile in the « Profiles » section. In the Control Panel, click the « Enable » button in the bottom right corner. Once it's running, you can change the server you're connected to in the « Proxy » section."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/flclashx.svg"
+                "iconUrl": "/assets/apps-icons/flclashx.png"
             },
             {
                 "id": "hiddify",
@@ -2240,7 +2240,7 @@
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/hiddify.svg"
+                "iconUrl": "/assets/apps-icons/hiddify.png"
             }
         ],
         "appleTV": [
@@ -2326,7 +2326,7 @@
                         "fr": "Ouvre l’app et connecte‑toi au serveur."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/happ.svg"
+                "iconUrl": "/assets/apps-icons/happ.png"
             },
             {
                 "id": "shadowrocket",
@@ -2401,7 +2401,7 @@
                         "fr": "Dans la section principale, appuie sur le grand bouton central pour te connecter au VPN. N’oublie pas de choisir un serveur dans la liste ; si besoin, choisis‑en un autre."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/shadowrocket.svg"
+                "iconUrl": "/assets/apps-icons/shadowrocket.png"
             },
             {
                 "id": "stash",
@@ -2447,7 +2447,7 @@
                         "fr": "Sur l’écran principal, appuie sur le bouton « Start ». Autorise ensuite l’ajout de la configuration VPN. Une fois le profil activé, ouvre la section « Policy » et choisis le pays de connexion."
                     }
                 },
-                "iconUrl": "/assets/apps-icons/stash.svg"
+                "iconUrl": "/assets/apps-icons/stash.png"
             }
         ]
     }

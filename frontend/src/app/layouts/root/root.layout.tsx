@@ -44,7 +44,12 @@ export function RootLayout() {
         const rootDiv = document.getElementById('root')
         const hasPanel = Boolean(rootDiv?.dataset?.panel)
         if (hasPanel) return
-        if (process.env.NODE_ENV !== 'development') return
+        const isDev =
+            // Vite
+            (typeof import.meta !== 'undefined' && (import.meta as any).env?.DEV) ||
+            // Node-style env (some builds)
+            process.env.NODE_ENV === 'development'
+        if (!isDev) return
 
         const url = new URL(window.location.href)
         const shortUuid = url.searchParams.get('shortUuid')
