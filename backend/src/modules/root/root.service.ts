@@ -171,6 +171,11 @@ export class RootService {
         shortUuid: string,
     ): Promise<void> {
         try {
+            // Never cache HTML shell: it references hashed assets and must update immediately after deploys.
+            res.setHeader('Cache-Control', 'no-store, max-age=0');
+            res.setHeader('Pragma', 'no-cache');
+            res.setHeader('Expires', '0');
+
             const cookieJwt = await this.generateJwtForCookie();
 
             const subscriptionDataResponse = await this.axiosService.getSubscriptionInfo(
